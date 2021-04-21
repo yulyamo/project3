@@ -14,17 +14,16 @@ html{
 #wrapper {
 	width: 850px;
 	height: 600px;
-	background-color: #c00;
+	background-color: #d4e4ef;
 	margin:0 auto;
 	overflow: hidden;
 }
 #canvas {
 	width: 700px;
 	height: 500px;
-	background-color: #ccc;
+	background-color: steelblue;
 	margin: 30px auto;
 }
-
 
 .container{
 	width: 960px;
