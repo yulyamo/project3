@@ -12,6 +12,8 @@ var el = document.getElementById('canvas');
 
   var myMap = new google.maps.Map(el, mapOptions);
   
+
+  
   var marker = new google.maps.Marker({
       position: {lat: 53.98779, lng: 27.52468},
       map: myMap,
@@ -33,6 +35,7 @@ var el = document.getElementById('canvas');
       title: "Osipovichi"
       
   });
+
 
 }
 
