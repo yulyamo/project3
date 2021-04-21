@@ -11,6 +11,28 @@ var el = document.getElementById('canvas');
 	};
 
   var myMap = new google.maps.Map(el, mapOptions);
+  
+  var marker = new google.maps.Marker({
+      position: {lat: 53.98779, lng: 27.52468},
+      map: myMap,
+      animation: google.maps.Animation.DROP,
+      title: "Minsk"
+      
+  });
+  var mst = new google.maps.Marker({
+      position: {lat: 54.02034, lng: 31.72170},
+      map: myMap,
+      animation: google.maps.Animation.DROP,
+      title: "Mstislavl"
+      
+  });
+   var osip = new google.maps.Marker({
+      position: {lat: 53.33870, lng: 28.62058},
+      map: myMap,
+      animation: google.maps.Animation.DROP,
+      title: "Osipovichi"
+      
+  });
 
 }
 
