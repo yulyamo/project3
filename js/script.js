@@ -1,3 +1,5 @@
+
+
 function initMap(){
 var el = document.getElementById('canvas');
 	var myLocation = new google.maps.LatLng(53.17461, 27.94227);
@@ -34,9 +36,19 @@ var el = document.getElementById('canvas');
       animation: google.maps.Animation.DROP,
       title: "Osipovichi"
       
+      
   });
+
 
 
 }
 
+
 google.maps.event.addDomListener(window, 'load', initMap);
+
+$(document).ready(function(){
+  $('.slider').bxSlider({
+    captions: true
+  });
+});
+
