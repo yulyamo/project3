@@ -222,6 +222,19 @@ iframe{
   padding: 5px;
 }
 
+.slider{
+  background-color: #f9f9f9;
+}
+
+.slider img {
+  margin: 0 auto;
+  max-width: 90%;
+  overflow:hidden;
+  vertical-align: middle;
+}
+.slider p{
+  text-align: center;
+}
 
 @media screen and (min-width: 400px){
   img{
